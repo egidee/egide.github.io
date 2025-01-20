@@ -1,0 +1,78 @@
+*{margin:0;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling for anchor links */
+  }
+body{margin:0;padding:0;background-color:#273747;color:white;}
+.red{color:rgb(201, 41, 41);line-height:30px;font-size: 20px;}
+.blue{color:#6DBCDB}
+header{background-color:white;position:fixed;width:100%;height:50px;top:0 }
+ul{display:flex;justify-content:space-evenly;margin-left:230px;list-style:none;}
+#welcome-section{ width:100vw;height:100vh;
+display:flex;
+flex-direction:column;align-items:center;
+justify-content:center;word-spacing:5px;}
+li:hover{background:green}
+li{font-size: 0.9rem;
+    padding: 1rem}
+.projects{width:100vw;height:110vh; background:hsl(240, 37%, 20%);
+text-align: center;padding-top:2rem;text-decoration:underline
+}
+nav {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: flex-end; /* align items at the end of the navigation bar */
+    align-items: center; /* Align items vertically */
+    background-color: #f4f4f4; /* Background color for the nav bar */
+    padding: 10px; /* Padding for the nav bar */
+    height:30px;
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    margin: 0 15px; /* Consistent spacing between links */
+    white-space: nowrap; /* Prevent text wrapping */
+    word-spacing: normal; /* Prevent word spacing from increasing */
+    letter-spacing: normal; /* Prevent letter spacing from stretching */
+   font-size: large;}
+
+nav a:hover {
+    color: #007BFF; /* Change color on hover for a nice effect */
+}
+.proname{color:white;text-decoration: none;  font-size: 1rem;
+    padding-left:20px }
+
+h2{padding-bottom: 50px;}
+.project-tile{padding-bottom: 30px; font-size: large;width:200px}
+
+.project-grid{padding-left:15%;
+  display: grid;
+  grid-template-columns: 500px 500px; /* Two equal columns */
+  column-gap: 0.01px;  /* Space between items */
+  margin-left: 100px;
+  
+}
+.contats{height:20vh;width:100%;}
+
+h2.call {
+    padding: 20px 450px !important;
+  }
+  .contact-links{ padding: 20px 600px;font-size: 50px;text-decoration: none ;color:green}
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Stack items vertically */
+    }
+    .item {
+      width: 100%; /* Make items take up full width */
+    }
+  }
+  
+  /* Media Query for phones */
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+    .item {
+      padding: 10px; /* Adjust padding for better readability */
+    }
+  }
