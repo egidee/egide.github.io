@@ -101,9 +101,8 @@ nav a:hover {
 .project-tile {
   padding-bottom: 30px;
   font-size: large;
-  width: 100%;
-  max-width: 400px;
-  margin: auto;
+  width: 30%;
+ display:flex
 }
 
 .project-grid {
