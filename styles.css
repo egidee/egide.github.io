@@ -25,6 +25,7 @@ nav {
     background-color: #f4f4f4; /* Background color for the nav bar */
     padding: 10px; /* Padding for the nav bar */
     height:30px;
+    width:100%;
 }
 
 nav a {
