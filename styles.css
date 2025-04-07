@@ -102,7 +102,9 @@ nav a:hover {
   padding-bottom: 30px;
   font-size: large;
   width: 30%;
- display:flex
+ display:flex;
+  gap:10px;
+  
 }
 
 .project-grid {
