@@ -22,7 +22,7 @@ nav {
     display: flex; /* Use Flexbox for layout */
     justify-content: flex-end; /* align items at the end of the navigation bar */
     align-items: center; /* Align items vertically */
-    background-color: #f4f4f4; /* Background color for the nav bar */
+    background-color: skyblue; /* Background color for the nav bar */
     padding: 10px; /* Padding for the nav bar */
     height:30px;
     width:100%;
