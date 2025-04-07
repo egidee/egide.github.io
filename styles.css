@@ -36,13 +36,13 @@ header {
 
 ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
   list-style: none;
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
+  
+  
   max-width: 1000px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 li {
